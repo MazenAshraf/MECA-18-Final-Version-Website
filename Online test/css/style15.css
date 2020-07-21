@@ -1,0 +1,46 @@
+body{
+	font-family: Trebuchet MS;
+	font-size: 15px
+	line-height:1.6em;
+	padding-top:2%;
+}
+
+li{
+	list-style: none;
+}
+
+.container{
+	 border-radius: 25px;
+    border: 2px solid orange;
+    padding: 20px; 
+	width: 90% !important;
+	margin: 20px auto;
+	overflow: auto;
+	background: white !important;
+	height:90%;
+}
+
+.pull-left{float: left;}
+.pull-right{float: right;}
+
+header{
+	background: orange;
+	color: #ffffff;
+	padding: 5px 10px;
+	overflow: auto;
+	font-size: 16px
+}
+footer{
+	background: orange;
+	color: #ffffff;
+	padding: 5px 10px;
+	overflow: auto;
+	
+}
+@media only screen and (max-width: 900px){.container{
+	width:90%;
+	margin: 20px auto;
+	overflow: auto;
+}
+
+}

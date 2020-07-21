@@ -1,0 +1,271 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	
+	
+	padding: 0!important;
+	margin:0!important;
+/*background: #131313;*/
+	z-index: -1;
+	
+/*	here the change delete it*/
+
+	background-image: url(../images/cover.jpg);
+	background:cover;
+	background-attachment: fixed;
+	
+
+	
+}
+
+.year{
+	width: 90%;
+	padding: 2%;
+	margin: 5% 5% !important;
+
+	text-align: center;
+background:#ffffff;
+	border-radius: 10%;
+
+	overflow: hidden;
+	
+}
+
+	
+.breakl{
+	
+border-color:grey;	
+	border-width:.125em; 
+	width: 35%;
+	padding: 0;
+	margin-bottom: 0;
+	margin-top: .25%;
+}
+.break{
+	
+	border-color:gray;
+	border-width:.2em; 
+	width: 40%;
+	padding: 0;
+	margin-bottom: 0;
+	margin-top: .5%;
+}
+.description{
+background:#FFFFFF;
+	margin-bottom: 2%;
+	margin-top: 2%;
+border-radius: 18%;
+}
+.description1{
+	background:#FFFFFF;
+	
+	margin-bottom: 2%;
+	margin-top: 2%;
+	border-radius: 18%;
+}
+.yearImage{
+	background:#FFFFFF;
+	margin-bottom: 2%;
+	margin-top: 2%;
+border-radius: 18%;
+}
+.head{
+	font-family: 'Exo', sans-serif;
+	font-weight: 500;
+	font-size:5vw;
+	margin-bottom: 2%;
+	
+}
+
+.head1{
+	font-family: 'Exo', sans-serif;
+	font-weight:550;
+	font-size:5vw;
+	margin-bottom: 2%;
+	
+}
+
+.ulleft{
+	text-align: left;
+	margin-top: 10%;
+	 list-style-image:url(../images/list.png)  ;
+	font-family: 'Exo 2', sans-serif;
+	
+	
+}
+
+.ulright{
+	text-align: right;
+	direction: rtl;
+	margin-top: 10%;
+	list-style-image: url(../images/listright.png) ;
+	font-family: 'Exo 2', sans-serif;
+	
+	
+	
+}
+
+.ulleft li{
+	margin-top:3.5%;
+	margin-bottom:3.5%;
+	letter-spacing: 1px;
+	text-indent:5%; 
+	font-size:1.8vw;
+	
+}
+
+.ulright li{
+	margin-top:3.5%;
+	margin-bottom:3.5%;
+	letter-spacing: 2px;
+	text-indent:5%; 
+	font-size:1.8vw;
+	
+	
+	
+}
+/*                            footer            */
+/*footer*/
+/*footer*/
+.footer{
+  width: 100%;
+  height: 100px;
+  background-color: #212529;
+  position: relative;
+    left: 0;
+    bottom: 0;
+    color: black;
+}
+
+
+.footer-social-media-icon{
+  width: 40px;
+  height: 40px;
+}
+
+.social-media-links{
+	padding-left: 1%;
+	padding-top: 0.5%;
+color: white;
+	position: absolute;
+        
+
+}
+.copywrites{
+        padding-left: 1%;
+  padding-top: 3%;
+  color: white;
+}
+
+
+
+
+
+
+.link{
+    color: white !important;
+    width: 40px;
+    height: 40px;
+}
+
+.fa-facebook-official:hover{color:#3B5998}
+.fa-twitter-square:hover{color:#4099FF}
+.fa-youtube-play:hover{color:#e52d27}
+.fa-instagram:hover{color:#8a3ab9}
+
+
+
+/*                           end footer           */
+
+
+
+
+@media  screen and (min-width: 1001px) {
+	
+	#y2007y{content: url(../images/2007.png);height: 600px;}
+	#y2008y{content: url(../images/2008.png);height: 600px;}
+	#y2009y{content: url(../images/2009.png);height: 600px;}
+	#y2010y{content: url(../images/2010.png);height: 600px;}
+	#y2011y{content: url(../images/2011.png);height: 600px;}
+	#y2012y{content: url(../images/2012.png);height: 600px;}
+	#y2013y{content: url(../images/2013.png);height: 600px;}
+	#y2014y{content: url(../images/2014.png);height: 600px;}
+	#y2015y{content: url(../images/2015.png);height: 600px;}
+	#y2016y{content: url(../images/2016.png);height: 600px;}
+	#y2017y{content: url(../images/2017.png);height: 600px;}
+	.description1{height:600px;} 
+    .description{height:600px;} 
+    
+}
+@media screen and (max-width: 1000px) {
+	
+	#y2007y{content: url(../images/2007.png);height: 500px;}
+	#y2008y{content: url(../images/2008.png);height: 500px;}
+	#y2009y{content: url(../images/2009.png);height: 500px;}
+	#y2010y{content: url(../images/2010.png);height: 500px;}
+	#y2011y{content: url(../images/2011.png);height: 500px;}
+	#y2012y{content: url(../images/2012.png);height: 500px;}
+	#y2013y{content: url(../images/2013.png);height: 500px;}
+	#y2014y{content: url(../images/2014.png);height: 500px;}
+	#y2015y{content: url(../images/2015.png);height: 500px;}
+	#y2016y{content: url(../images/2016.png);height: 500px;}
+	#y2017y{content: url(../images/2017.png);height: 500px;}
+    .description1{height:500px;} 
+    .description{height:500px;} 
+}
+
+@media  screen and (max-width: 784px) {
+	#y2007y{content: url(../images/2007h.png);height: 380px;}
+	#y2008y{content: url(../images/2008h.png);height: 380px;}
+	#y2009y{content: url(../images/2009h.png);height: 380px;}
+	#y2010y{content: url(../images/2010h.png);height: 380px;}
+	#y2011y{content: url(../images/2011h.png);height: 380px;}
+	#y2012y{content: url(../images/2012h.png);height: 380px;}
+	#y2013y{content: url(../images/2013h.png);height: 380px;}
+	#y2014y{content: url(../images/2014h.png);height: 380px;}
+	#y2015y{content: url(../images/2015h.png);height: 380px;}
+	#y2016y{content: url(../images/2016h.png);height: 380px;}
+	#y2017y{content: url(../images/2017h.png);height: 380px;}
+	.description1{height:370px} 
+    .description{height:370px}
+	.ulright li{font-size:16px!important}
+	.ulleft li{font-size:16px!important}
+	
+	
+}
+
+
+@media  screen and (max-width: 550px) {
+	#y2007y{content: url(../images/2007h.png);height: 250px;}
+	#y2008y{content: url(../images/2008h.png);height: 250px;}
+	#y2009y{content: url(../images/2009h.png);height: 250px;}
+	#y2010y{content: url(../images/2010h.png);height: 250px;}
+	#y2011y{content: url(../images/2011h.png);height: 250px;}
+	#y2012y{content: url(../images/2012h.png);height: 250px;}
+	#y2013y{content: url(../images/2013h.png);height: 250px;}
+	#y2014y{content: url(../images/2014h.png);height: 250px;}
+	#y2015y{content: url(../images/2015h.png);height: 250px;}
+	#y2016y{content: url(../images/2016h.png);height: 250px;}
+	#y2017y{content: url(../images/2017h.png);height: 250px;}
+	.description1{height:350px} 
+    .description{height:350px}
+	.ulright li{font-size:13px!important}
+	.ulleft li{font-size:13px!important}
+    
+}
+
+
+
+
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Barlow', sans-serif;
+font-family: 'Exo 2', sans-serif;
+font-family: 'El Messiri', sans-serif;
+font-family: 'Exo', sans-serif;
+font-family: 'Boogaloo', cursive;
+font-family: 'Audiowide', cursive;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Merienda One', cursive;
+*/

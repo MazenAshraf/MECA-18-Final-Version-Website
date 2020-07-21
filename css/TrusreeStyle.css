@@ -1,0 +1,255 @@
+body{
+  height: 1200px;
+  margin: 0px;
+}
+.all{
+background-color: black ;
+height: 100%;
+  width: 100%;
+  
+}
+/* Three columns side by side */
+.person {
+      float: left;
+    width: 20%;
+    margin-bottom: 16px;
+    margin-left: 10%;
+}
+@media (max-width: 855px) {
+     .person{
+        width: 30%;
+    margin-bottom: 16px ;
+    margin-left: 40% ;
+            margin-right: 40%;
+  }
+}
+/* Display the columns below each other instead of side by side on small screens */
+@media (max-width: 700px) {
+    .leader
+    {
+      margin-right: 30% !important;
+      margin-left: 30% !important;
+    }
+    .person
+    {
+            margin-right: 30% !important;
+      margin-left: 30% !important;
+    }
+  }
+@media (max-width: 650px) {
+    .person {
+        width: 100%;
+        display: block;
+    }
+    .all
+    {
+      height: 2550px !important;
+    }
+    .Advisors
+    {
+      padding-bottom: 100px;
+    }
+}
+@media (max-width: 450px) {
+    .leader
+    {
+      margin-right: 20% !important;
+      margin-left: 20% !important;
+    }
+    .person
+    {
+            margin-right: 20% !important;
+      margin-left: 20% !important;
+    }
+  }
+  @media (max-width: 350px) {
+    .leader
+    {
+      margin-right: 10% !important;
+      margin-left: 10% !important;
+    }
+    .person
+    {
+            margin-right: 10% !important;
+      margin-left: 10% !important;
+    }
+  }
+
+/* Add some shadows to create a card effect */
+.personcard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    height: 245.5px;
+    margin-bottom: 10%; 
+    width : 246px;
+}
+
+/* Some left and right padding inside the container */
+
+ 
+}
+.queue{
+  width: 100%;
+}
+.title {
+    color: grey;
+}
+
+/*Overlay Right*/
+    .space {
+      
+      
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: rgba(0,0,0,0.8);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.space:hover .overlay {
+  width: 100%;
+  left: 0;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Trebuchet MS ; 
+  -ms-transform: translate(-50%, -50%);
+
+}
+
+/*Overlay Left */
+.space1 {
+  position: relative;
+  width: 100%;
+  
+}
+.text1 {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Trebuchet MS ; 
+  -ms-transform: translate(-50%, -50%);
+
+}
+
+.image {
+  
+  width: 246px;
+  height: 245.5px;
+ 
+  
+}
+
+.overlay1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.8);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.space1:hover .overlay1 {
+  width: 100%;
+  height: 100%;
+}
+.founderscontainer
+{
+  background-color: white;
+  margin-top: 15px;
+}
+.Founder
+{
+    text-align: center;
+    font-family: Trebuchet MS;
+    width: 100%;
+    height: 60px;
+    margin: 0px;
+    color: black;
+    padding-top: 10px;
+    font-weight: 520;
+}
+.Founders{
+  text-align: center;
+    font-family: Trebuchet MS;
+    width: 100%;
+    height: 60px;
+    margin: 0px;
+    color: white;
+    padding-top: 10px;
+    background-color: black;
+}
+.background1
+{
+  background-image: url("../images/a2.jpg");
+
+  background-attachment: fixed;
+    background-size: cover;
+    height: 500px;   
+}
+
+
+
+
+
+.font3{
+  font-family: arial ;
+  font-style: italic;
+  font-weight: 10;
+ color: chocolate;
+  }
+
+
+
+.Advisors{
+  text-align: center;
+    font-family: Trebuchet MS;
+    width: 100%;
+    height: 60px;
+    margin: 0;
+    background: white;
+    color: black; 
+    padding-top: 10px;
+}
+.all2{
+background-color: white;
+height: 1000px;
+  width: 100%;
+  }
+  .leader
+  {
+        width: 30%;
+    margin-bottom: 16px;
+    margin-left: 40%;
+        margin-right: 40%;
+  }

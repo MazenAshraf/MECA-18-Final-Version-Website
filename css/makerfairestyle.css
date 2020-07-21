@@ -1,0 +1,67 @@
+*{margin:0;padding: 0;}
+ .page{
+	background-image: url('market.jpg');
+		background-attachment: fixed;
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin: 0 !important;
+ }
+ .qq{
+ 	text-align: center;align-content: center;
+ }
+
+
+
+ .input-group{
+ 	margin-top:2% !important;
+ 	text-align: left;
+ }
+
+ .reg{
+padding-top: 1%;
+padding-bottom : 3%;
+ 	margin-top: 7%;
+ 	margin-bottom: 5%;
+ 	background-color: rgba(0,0,0,0.50);
+ 	border-radius: 10px;
+ }
+
+ .text{
+letter-spacing: 1px;
+font-size: 130%;
+font-family: 'Amaranth', sans-serif;
+color:orange;
+ }
+
+
+ input,option,select{
+ 	font-size: 150%;
+ 	font-weight: bold;
+ 	font-family: 'Quicksand', sans-serif;
+
+
+ }
+
+ legend{
+	font-size: 200%;
+ 	font-family: 'Quicksand', sans-serif;
+ 	font-weight: bold;
+ 	color:orange;
+ 	margin-bottom: 1%;
+ 	padding-bottom: 1%;
+ 	letter-spacing: 1px;
+ }
+
+ .btn{
+ 	border: 1px solid orange;
+ 	font-size: 160%;
+ }
+
+ .btn:hover{
+ 	background-color: orange;
+ 	color:white;
+
+
+ }
+ 

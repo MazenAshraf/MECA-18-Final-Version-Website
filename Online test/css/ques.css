@@ -1,0 +1,185 @@
+body
+{
+/*    font-family: 'Lora', serif;
+font-family: 'Crimson Text', serif;
+font-family: 'Bree Serif', serif;
+font-family: 'Alegreya', serif;
+font-family: 'Shrikhand', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Merienda', cursive;*/
+	font-family: 'Crimson Text', serif;
+	font-size: 15px;
+	line-height: 1.6em;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+    background-image:url('../images/2.jpg');
+    
+}
+li
+{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+label
+{
+	display: inline-block;
+	width: 180px;
+}
+input[type='text']
+{
+	width: 97%;
+	padding: 4px;
+	border-radius: 5px;
+	border:1px #ccc solid;
+}
+input[type='Number']
+{
+	width: 50px;
+	padding: 4px;
+	border-radius: 5px;
+	border:1px #ccc solid;
+}
+
+.container
+{
+    border-radius: 25px;
+    border: 2px solid orange;
+    padding: 20px; 
+	width: 90% !important;
+	margin: 20px auto;
+	overflow: auto;
+	background:orange !important;
+	height:90%;
+    z-index:100;
+    border: 2px solid white;
+    background-color: white;
+    color: whitesmoke;
+    font-family: 'Crimson Text', serif;
+
+}
+header
+{
+/*
+	background-color: coral;
+    color: bisque;
+*/
+    
+}
+#middle
+{
+    background-color: whitesmoke!important;
+    color: black!important;
+    font-family: 'Bree Serif', serif !important;
+}
+footer
+{
+	
+	text-align: center;
+	padding-top: 5px;
+/*    background-color: coral;*/
+    font-family: 'Crimson Text', serif;
+/*    color: bisque;*/
+}
+main
+{
+	padding-bottom: 20px;
+}
+a.start
+{
+	display: inline-block;
+	color: #666;
+	background: #f4f4f4;
+	border: 1px dotted #ccc;
+	padding: 6px 13px;
+}
+.current
+{
+	padding: 10px;
+    background: #f87e0a;
+    border: #ccc dotted 1px;
+    margin: 20px 0 10px 0;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    letter-spacing: 5px;
+}
+header {
+    border-bottom: none;
+}
+footer {
+    border-top: none;
+}
+h1
+{
+	text-align: center;
+}
+ul{
+
+
+    color: black;
+    text-indent: 20px;
+    font-size: 20px;
+    
+}
+li {
+    text-indent: 20px;
+    margin-bottom: 7px;
+
+}
+p{
+	margin-left: 20px;
+    font-size: 23px;
+    line-height:130%;
+}
+#subbut{
+	position:relative;
+	left:35%;
+	min-width:30%;
+	min-height:35px;
+	background-color:white;
+	
+	border-radius:20px;
+	border-shadow:none;
+	border-style:solid;
+	border-color:orange;
+	font-size:20px;
+	letter-spacing:2px;
+    border: 2px solid #FFA500";
+        
+
+}
+#subbut:hover{
+    color:white;
+    background-color: orange;
+}
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+@media only screen and (max-width: 960px)
+{
+	.container
+	{
+		width: 80%;
+	}
+}
+<style>
+    @media print {
+    html, body {
+       display: none;  /* hide whole page */
+    }
+}
+  </style>

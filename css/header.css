@@ -1,0 +1,72 @@
+@media only screen and (max-width: 991px){
+.dropdown-menu
+{
+	padding-top: 0px !important;
+	margin-top: 0px !important;
+}
+.passwordinput
+{
+	margin-top: 5% !important;
+}
+.signbutton
+{
+	margin-top: 2% !important;
+	margin-bottom: 2% !important;
+
+}
+.signupbutton
+{
+	margin-top: 1% !important;
+		margin-bottom: 1% !important;
+
+}
+}
+@media only screen and (max-width: 765px){
+.dropdown-menu
+{
+	padding-top: 0px !important;
+	margin-top: 0px !important;
+}
+.passwordinput
+{
+	margin-top: 2% !important;
+	margin-left: 142px !important;
+}
+.signbutton
+{
+	margin-top: 2% !important;
+	margin-bottom: 2% !important;
+
+}
+.signupbutton
+{
+	margin-top: 2% !important;
+}
+}
+@media only screen and (max-width: 575px){
+.dropdown-menu
+{
+/*	padding-top: 0px !important;
+*/}
+.emailinput
+{
+	margin-top: 0% !important;
+}
+.passwordinput
+{
+	margin-top: 1.5% !important;
+	margin-left: 0% !important;
+}
+.signbutton
+{
+	margin-top: 2% !important;
+	margin-bottom: 2% !important;
+
+}
+.signupbutton
+{
+	margin-top: 1% !important;
+		margin-bottom: 1% !important;
+
+}
+}
